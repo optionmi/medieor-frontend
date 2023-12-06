@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ellipse-clip {
+  clip-path: ellipse(55% 100% at 50% 100%);
+}
+
+.posts-clip {
+  clip-path: polygon(100% 0, 100% 85%, 60% 85%, 50% 100%, 40% 85%, 0 85%, 0 0);
+}

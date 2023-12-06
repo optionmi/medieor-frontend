@@ -1,0 +1,6 @@
+.hero_bg {
+  background-image: url("../../assets/hero-bg.jpg");
+  background-size: cover;
+  height: 95vh;
+  width: 100%;
+}
