@@ -1,6 +1,27 @@
 .hero_bg {
-  background-image: url("../../assets/hero-bg.jpg");
+  background-image: url("../../assets/hero_bg.png");
   background-size: cover;
   height: 95vh;
   width: 100%;
+}
+
+.bg1 {
+  background-image: url("../../assets/1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url("../../assets/2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg3 {
+  background-image: url("../../assets/3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

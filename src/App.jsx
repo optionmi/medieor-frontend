@@ -23,9 +23,15 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute left-0 right-0 z-10 flex items-end justify-around h-24 bottom-10">
-            <div className="w-20 h-20 bg-white rounded-full "></div>
-            <div className="self-start w-20 h-20 bg-white rounded-full "></div>
-            <div className="w-20 h-20 bg-white rounded-full "></div>
+            <div
+              className={`${styles.bg1} w-20 h-20 bg-white rounded-full`}
+            ></div>
+            <div
+              className={`${styles.bg2} self-start w-20 h-20 bg-white rounded-full`}
+            ></div>
+            <div
+              className={`${styles.bg3} w-20 h-20 bg-white rounded-full`}
+            ></div>
           </div>
           <div className="bg-[#a48159cc] absolute bottom-0 left-0 right-0 h-24 p-2 ellipse-clip">
             {/* <div className="container relative flex justify-around mx-auto"></div> */}
